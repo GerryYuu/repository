@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.yuu8583",
+    "module": "hitokoto4j",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hitokoto4j-1.0.1.jar",
+          "url": "hitokoto4j-1.0.1.jar",
+          "size": 9585,
+          "sha512": "c332f14921c23347c5b55589042a123c1f559727de5adddfbcb5c73f2d79303314b74809d6cfd39834ace6dc79068139b88b33673b7e5bb398192c5c5acd8389",
+          "sha256": "a29fa7a1b42246e0034130e3f5f5abab04a7ee8791086f5ce245f389bf7487da",
+          "sha1": "8d93bec78b66728d4b6c54b019d23f969badc2c1",
+          "md5": "4b7187ddf5b358793ebe7a4925a2efcf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hitokoto4j-1.0.1.jar",
+          "url": "hitokoto4j-1.0.1.jar",
+          "size": 9585,
+          "sha512": "c332f14921c23347c5b55589042a123c1f559727de5adddfbcb5c73f2d79303314b74809d6cfd39834ace6dc79068139b88b33673b7e5bb398192c5c5acd8389",
+          "sha256": "a29fa7a1b42246e0034130e3f5f5abab04a7ee8791086f5ce245f389bf7487da",
+          "sha1": "8d93bec78b66728d4b6c54b019d23f969badc2c1",
+          "md5": "4b7187ddf5b358793ebe7a4925a2efcf"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hitokoto4j-1.0.1-all.jar",
+          "url": "hitokoto4j-1.0.1-all.jar",
+          "size": 256104,
+          "sha512": "693e81a1f4a2958cb5354c4338f8cbeb01791e501782ef214d84dd16c75eb8481691192d1193ee6ca01407208deb3fb18581d7150bcaba2748cba25c3fdfb5cd",
+          "sha256": "d9f8b0ea6f0444f8daeebcd722ad1b13de2f97186827d65177bc234ee446a147",
+          "sha1": "268b0a956d72bdae15a82c1fe142e7c53f286c60",
+          "md5": "a155d4fb89aeb58990b3d3222e06d4fd"
+        }
+      ]
+    }
+  ]
+}
